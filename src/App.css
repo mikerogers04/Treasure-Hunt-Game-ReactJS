@@ -1,0 +1,37 @@
+h1 {
+  text-align: center;
+}
+/* Guesses left text */
+.guess{
+  text-align: center;
+  padding-top: 2px;
+}
+/* Background Image fits entire body of page */
+body{
+  background-image: url("https://t3.ftcdn.net/jpg/03/54/90/84/240_F_354908454_7CftzSVA4ZldS4UrTsBzWLDLRSTyYZWW.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Individual Squares */
+.square {
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  font-size: 100px;
+  text-align: center;
+}
+/* Treasure Hunt Board */
+.gameboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 600px;
+  margin: 0 auto;
+}
+/* Play Again button */
+.button {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 10px;
+}
